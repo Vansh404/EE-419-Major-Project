@@ -15,7 +15,7 @@ grid on
 
 figure('Name','Formation Errors for Follower 1')
 subplot(2,1,1);
-plot(tout,x-x1);
+plot(tout,(x-x1)*0.6);
 title('Formation Error in X Direction For Follower 1');
 
 subplot(2,1,2);
